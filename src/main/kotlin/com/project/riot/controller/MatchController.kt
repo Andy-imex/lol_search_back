@@ -14,4 +14,6 @@ class MatchController(
     fun getUserMatchDataByAccountId(@PathVariable("matchId") MatchId: Long): String {
         return riotApiService.getMatchDataByAccountId(MatchId)
     }
+
+
 }
